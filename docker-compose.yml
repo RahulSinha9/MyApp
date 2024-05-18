@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  go-app:
+    image: rahuldss88/myapp-go:latest
+    ports:
+      - "8080:8080"
+
+  nextjs-app:
+    image: rahuldss88/myapp-nextjs:latest
+    ports:
+      - "3000:3000"
+
+  wordpress-app:
+    image: rahuldss88/myapp-wordpress:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./wordpress-app:/var/www/html
