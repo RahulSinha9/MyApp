@@ -1,0 +1,10 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    ...
+    - name: Deploy to Staging
+      if: success()
+      run: |
+        docker pull rahuldss88/myapp-wordpress:latest
+        docker-compose -f docker-compose.yml up -d
