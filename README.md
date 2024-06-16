@@ -10,7 +10,7 @@
 
 **4.** Install PHPCS, GolangCI-Lint, ESLint, and Prettier on your local machine for testing and configuration purposes.
 
-**1. Version Control**
+**1. Version Control.**
 
 **Create GitHub Repository**
 
