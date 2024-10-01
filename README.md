@@ -2,7 +2,7 @@
 
 **Prerequisites**
 
-**1.** Ensure you have Git installed.
+**1.** Ensure you have Git installed..
 
 **2.** Set up Docker and Docker Compose.
 
